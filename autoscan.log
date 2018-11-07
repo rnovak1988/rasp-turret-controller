@@ -1,0 +1,11 @@
+autoscan: warning: missing AC_CHECK_HEADERS([stdint.h]) wanted by: 
+	src/turret.c:4
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	src/turret.c:2
+autoscan: warning: missing AC_CHECK_HEADERS([string.h]) wanted by: 
+	src/turret.c:9
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	src/turret.c:3
+autoscan: warning: missing AC_TYPE_INT32_T wanted by: 
+	src/turret.c:13
+	src/turret.c:13
