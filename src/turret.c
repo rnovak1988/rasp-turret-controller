@@ -109,6 +109,9 @@ int32_t main (int32_t argc, char* argv[]) {
   mvwprintw(position_window, cursor_y, cursor_x, " ");
   wattroff(position_window, COLOR_PAIR(1));
 
+  update_x(0.5);
+  update_y(0.5);
+
   wrefresh(position_window);
 
   int32_t _sentinal_ = SENTINAL;
